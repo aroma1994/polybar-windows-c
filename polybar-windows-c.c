@@ -207,7 +207,7 @@ int main (void) {
 								+ 1);
 							strcat (out, "%{F#ffffff}%{+u}%{u#ffffff}");
 							strcat (out, (char *)wname);
-						    strcat (out, "%{-u}%{F-}");
+							strcat (out, "%{-u}%{F-}");
 							strcat (out, "   ");
 						}
 						else {
@@ -225,7 +225,7 @@ int main (void) {
 			if (wlist) XFree (wlist);
 
 			printf ("%s\n", out);
-			fflush(stdout);
+			fflush (stdout);
 			free (out);
 
 	  		XNextEvent (display, &event);
