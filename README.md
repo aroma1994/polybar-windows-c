@@ -2,6 +2,10 @@
 
 A [Polybar](https://github.com/jaagr/polybar) script on C that shows active window and other opened and minimized windows as (non-clickable) labels.
 
+How it looks right now:
+
+![polybar-windows-c](screenshots/polybar-windows-c.png)
+
 ## Dependencies
 
 * `gcc`
